@@ -102,11 +102,7 @@ function FeedbackForm() {
           </button>
         </form>
       </div>
-      <footer className="mt-6">
-        <p className="text-gray-500 text-sm">
-          © 2025 Siddique Shaikh. Submitted for Vite React Feedback Form Demo.
-        </p>
-      </footer>
+      
     </div>
   );
 }
