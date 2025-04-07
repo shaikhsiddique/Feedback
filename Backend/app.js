@@ -13,7 +13,7 @@ db();
 
 
 app.use(cors({
-    origin: 'http://localhost:5173', // your React frontend URL
+    origin: process.env.FRONTEND_URI, // your React frontend URL
     credentials: true,
   }));
 app.use(express.json());
